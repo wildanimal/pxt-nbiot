@@ -91,7 +91,7 @@ namespace nbiot {
     //% weight = 12
     export function imei(): string {
         writeCommand("AT+CGSN=1")
-        return readLine()//.substr(7, 15)
+        return readLine().substr(6, 15)
     }
 
     /**
