@@ -3,7 +3,7 @@
  */
 //% weight=100 color=#1eadf8 icon="\uf1d8" block="NB-IoT"
 namespace nbiot {
-    const DEBUG = false
+    const DEBUG = true
     const enum NbiotEvents {
         ID = 7107,
         RX_END = 0,
@@ -11,8 +11,8 @@ namespace nbiot {
     }
     let lines: string[] = []
     let socket = -1
-    let serverIp = "172.16.15.14"
-    let serverPort = 1234
+    let serverIp = "111.230.180.125"
+    let serverPort = 5683
     let awaitingResponse = false
     let _isConnected = false
     const connectCallbacks: (() => void)[] = []
