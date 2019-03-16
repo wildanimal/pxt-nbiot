@@ -11,7 +11,7 @@ namespace nbiot {
     }
     let lines: string[] = []
     let socket = -1
-    let serverIp = "111.230.180.125"
+    let serverIp = "221.229.214.202"
     let serverPort = 5683
     let awaitingResponse = false
     let _isConnected = false
