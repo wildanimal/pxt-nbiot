@@ -59,6 +59,8 @@ namespace nbiot {
 
         // disable Power Save Mode
         writeCommand("AT+CPSMS=2")
+        
+        writeCommand("AT+NCONFIG=AUTOCONNECT,TRUE")
 
         // trigger on connect callbacks
         control.inBackground(() => {
