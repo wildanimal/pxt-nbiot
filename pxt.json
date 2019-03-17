@@ -16,7 +16,7 @@
     "targetVersions": {
         "branch": "v1.2.11",
         "tag": "v1.2.11",
-        "commits": "https://github.com/wildanimal/pxt-nbiot/commit/3a37147af0762ddfb5cb3f3a8252af165dd86bac",
+        "commits": "https://github.com/wildanimal/pxt-nbiot/commit/2d04536e89d8ec347f81b0f3391095d98cc65064",
         "target": "1.2.11",
         "pxt": "4.4.7"
     },
